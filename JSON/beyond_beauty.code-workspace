@@ -1,0 +1,165 @@
+{
+    "beyond_beauty":[
+
+
+        {"header":[
+            {"logo_inicio": ".jpg"},
+            {"logo_pequeño": ".jpg"},
+            {"redes_sociales":[
+                {"facebook": "logo_facebook.jpg"},
+                {"instagram": "logo_insta.jpg"},
+                {"twitter": "logo_twitter.jpg"}
+            ]},
+            {"ayuda": ".jpg"}
+        ]},
+
+
+
+        {"principal":[
+            {"carousel":[
+                {/*elegir random una oferta random y elegir una empresa random segun la oferta*/}
+            ]},
+            {"categoria_p":[
+                {"nombre": "Cuidado capilar",
+                "foto": ".jpg"
+                },            
+                {"nombre": "Cuidado facial",
+                "foto": ".jpg"
+                },            
+                {"nombre": "Uñas",
+                "foto": ".jpg"
+                },            
+                {"nombre": "Cuidado corporal",
+                "foto": ".jpg"
+                },            
+                {"nombre": "Maquillaje",
+                "foto": ".jpg"
+                },            
+                {"nombre": "Tintes",
+                "foto": ".jpg"
+                }
+            ]},
+            {"recomendacion_dia": [{
+                //random de una empresa
+            }]}
+        ]},
+
+
+
+        {"servicios_generales":[
+            {"imagen": ".jpg"},
+            {"titulo": "Cuidado capilar"},
+            {"descripcion": "qwertyuiopasdfghjklzxcvbnm"}
+        ]
+        },
+
+
+
+        {"servicios_especificos":[
+            {"imagen": ".jpg"},
+            {"titulo": "Corte"},
+            {"descripcion": "qwertyuiopasdfghjklzxcvbnm"}
+        ]},
+
+
+
+        {"establecimientos":[
+            {"titulo": "Barbería Gonzalez"},
+            {"imagenes":[
+                {"img1": ".jpg"},
+                {"img2": ".jpg"},
+                {"img3": ".jpg"}
+            ]},
+
+            {"horario":[
+                {"lunes": "08:00/14:00"},
+                {"martes": "08:00/14:00"},
+                {"miercoles": "08:00/14:00"},
+                {"jueves": "08:00/14:00"},
+                {"viernes": "08:00/14:00"},
+                {"sabado": "08:00/14:00"},
+                {"domingo": "08:00/14:00"},
+            ]},
+
+            {"direccion":[{"calle":"pintor oliet"}, {"avenida": ""}, {"plaza": ""}]},
+            {"mapa": "enlace mapa"},
+            {"ofertas": [                
+                {"imagen": ".jpg"},
+                {"titulo": "Corte"},
+                {"precio": "10"},
+                {"coste_horas": "15"},
+                {"porcentaje": "20"},
+                {"fecha_inicio": ""},
+                {"fecha_fin": ""}
+            ]},
+            
+            {"servicios":[
+                {"imagen": ".jpg"},
+                {"titulo": "Corte"},
+                {"precio": "10"},
+                {"coste_horas": "15"}
+
+            ]},
+
+            {"comentarios":[
+                {"apodo": "aguacate"},
+                {"valoracion": "5"},
+                {"texto": "me cago en los olivos que engrasan las bisagras de las tumbas de tus putos muertos SUBNORMAL"}
+            ]},
+
+            {"reservas": [
+                {"dia":},
+                {"hora":},
+                {"nombre": "Alexia"},
+                {"apellido": "Agramunt"},
+                {"telefono": "664455747"},
+                {"correo": "alexiaagramunt@gmail.com"},
+                {"trabajador": "Michael García"},
+                {"efectivo": "efectivo"}
+            ]}
+
+        ]},
+        
+
+
+        {"usuario/empresa":[
+            {"foto": ".jpg"},
+            {"apodo": "Cacaue"},
+            {"puntos": "568"},
+            {"nombre": "Alexia"},
+            {"apellido": "Agramunt"},
+            {"telefono": "664455747"},
+            {"contraseña": "incorrecta"},
+            {"correo": "alexiaagramunt@gmail.com"},
+            {"tipo": "empresa"},
+            {"iban": "ES789456123"},
+            {"nif": "ckjviuqffvyewu"}
+        ]},
+
+
+
+        {"trabajadores": [
+            {"nombre": "Antonio"},
+            {"apellido": "Velazquez"},
+            {"dni": "20959184C"},
+            {"ocupacion": "peluquero"},
+            {"empresa": "Barbería Gonzalez"},
+            {"cuadrante":[
+                {"lunes": "08:00/14:00"},
+                {"martes": "08:00/14:00"},
+                {"miercoles": "08:00/14:00"},
+                {"jueves": "08:00/14:00"},
+                {"viernes": "08:00/14:00"},
+                {"sabado": "08:00/14:00"}
+            ]},
+            {"correo": "wjekbgfqewuifbweu"}
+        ]},
+
+
+
+        
+
+    ]
+
+    
+}
