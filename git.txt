@@ -1,0 +1,110 @@
+iniciar git
+    git init
+
+--------------------------------------------------------------------------------------------------------------
+
+revisar si los archivos han sido modificados
+    git status
+
+--------------------------------------------------------------------------------------------------------------
+
+añadir archivos
+    git add .
+        todos los archivos
+    git add nombre de archivo
+    
+--------------------------------------------------------------------------------------------------------------
+
+subir al repositorio git
+    git commit -m "mensaje"
+
+--------------------------------------------------------------------------------------------------------------
+
+para crear una rama
+    git branch nueva_rama rama_actual
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+para cambiar de rama
+    git checkout nueva_rama
+
+--------------------------------------------------------------------------------------------------------------
+
+para configurar tu identidad
+    git config --global user.email "email"
+    git config --global user.name "nombre"
+
+--------------------------------------------------------------------------------------------------------------
+
+si queremos crear un filtro para que algunos archivos no se guarden al repositorio
+    creamos un fichero de texto llamado .gitignore y añadimos 
+        *.extensión
+            todos los archivos con esa extensión
+        nombre.extension
+            archivo con ese nombre y esa extensión
+
+--------------------------------------------------------------------------------------------------------------
+
+para comprobar cada version del repositorio
+    git log --oneline
+
+--------------------------------------------------------------------------------------------------------------
+
+para comprobar las diferencias entre el archivo guardado en git y el modificados    
+    git diff
+    git diff --staged
+        para comprobar con archivos añadidos
+
+--------------------------------------------------------------------------------------------------------------
+
+mostrar los ficheros añadidos en un commit
+    git show num de hash
+
+--------------------------------------------------------------------------------------------------------------
+
+descargar archivos de github
+    git clone url del github .
+        el punto es por si quieres que se guarde en la carpeta donde estas, si no lo pones se guardará en otra carpeta
+
+--------------------------------------------------------------------------------------------------------------
+
+para establecer una conexion con github
+    git remote add origin url de github
+
+--------------------------------------------------------------------------------------------------------------
+
+para enviar archivos a github
+    git push origin master
+
+--------------------------------------------------------------------------------------------------------------
+
+para recuperar archivos despues de un commit
+    git checkout master
+        colocando master nos referimos a una rama
+
+    git checkout -- master
+        nos referimos al nombre de un archivo
+
+    git checkout HEAD -- archivo
+            colocando HEAD nos referimos a la ultima actualizacion
+
+--------------------------------------------------------------------------------------------------------------
+
+para recuperar archivos de un add
+    git reset HEAD archivo
+
+--------------------------------------------------------------------------------------------------------------
+
+para borra los add y recuperar lo del commit 
+    git reset --hard HEAD
+
+--------------------------------------------------------------------------------------------------------------
+
+para recuperar el anterior al HEAD es poniendo ~1
+
+--------------------------------------------------------------------------------------------------------------
+
+para deshacer los cambios de un commit
+    git revert num de hash
+
+
